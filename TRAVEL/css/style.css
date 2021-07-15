@@ -1,0 +1,252 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif; 
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+
+.title{
+	width: 100%;
+	padding: 0px 0px 40px;
+}
+.title p{
+	font-size: 16px;
+	color: black;
+}
+.title h1{
+	font-size: 32px;
+	font-weight: 600;
+	color: black;
+}
+
+
+
+.header{
+	width: 100%;
+	background: url("../images/8309058736_7def17e39e_o (1).png") center bottom no-repeat;
+	background-size: cover;
+}
+.header .bg-light {
+    background-color: transparent!important;
+}
+.header .navbar-brand img{
+	width: 180px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #42200B;
+    text-transform: uppercase;
+    font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 30px 0px 0px 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: blue;
+}
+.header.navbar-light .navbar-nav .nav-link.active,.header  .navbar-light .navbar-nav .show>.nav-link {
+    color: #000;
+}
+
+
+.banner{
+	width: 100%;
+	padding: 250px 0px;
+}
+.banner .inner h1{
+	text-align: center;
+	color: white;
+	font-size: 45px;
+
+}
+.banner .input-group{
+	width: 500px;
+	padding: 5px 5px;
+	text-align: center;
+	margin-left: 300px;
+}
+.banner .input-group .btn-danger{
+	width: 80px;
+	padding: 5px;
+}
+
+
+
+
+.review{
+	 background: #eeeeee;
+	padding: 80px 0px;
+}
+.review .title{
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+
+.review .card{
+	border: none;
+	margin: 10px;
+}
+ .card .inner .img{
+	position: relative;
+}
+ .card .inner .text{
+	position: absolute;
+	bottom: 130;
+	left: 215;
+	color: white;
+
+}
+
+
+.review .card .card-img-top{
+	width: 258px;
+	height: 258px;
+}
+.card .card-body .card-text{
+	color: #8b8b8b;
+}
+
+
+.leave{
+	width: 100%;
+	padding: 80px 0px;
+}
+.leave h1{
+	font-size: 60px;
+	line-height: 70px;
+}
+.leave .inner{
+	margin: 20px 0px 0px 50px;
+}
+.leave .inner h4{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 700;
+}
+.leave .inner p{
+	font-size: 15px;
+	line-height: 25px;
+	color: #8b8b8b;
+}
+
+.sub{
+	width: 100%;
+	padding: 20px 0px;
+}
+.sub .title h2{
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.sub .input-group{
+	width: 500px;
+	padding: 5px 5px;
+	text-align: center;
+	margin-left: 300px;
+}
+.sub .form-control{
+	background-color: #eeeeee; 
+	color: black; 
+
+}
+.banner .input-group .btn-danger{
+	width: 100px;
+	padding: 5px 50px;
+	text-transform: uppercase;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+.footer{
+	width: 100%;
+	padding: 5px 0px;
+	background: #eeeeee;
+}
+.footer p{
+	font-size: 15px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	
+
+}
+.footer .list{
+	display: block;
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.footer .list  li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 0px 0px;
+}
+.footer .list li a{
+	font-size: 15x;
+	color: black;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin: 0px 20px;
+}
+
+
+
+
+
+@media(min-width:320px) and (max-width: 480px){
+
+
+
+.banner .input-group{
+	width: 350px;
+	padding: 5px 5px;
+	text-align: center;
+	margin-left: 0px;
+}
+.sub .input-group{
+	width: 350px;
+	padding: 5px 5px;
+	text-align: center;
+	margin-left: 0px;
+}
+.footer .list li a {
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0px 14px;
+}
+
+
+
+
+}
+@media(min-width:481px) and (max-width: 767px){
+
+
+
+
+
+
+
+}
+
+
+@media(min-width:768px) and (max-width: 1024px){
+
+}
